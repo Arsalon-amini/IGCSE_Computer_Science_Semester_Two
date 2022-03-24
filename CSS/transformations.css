@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+/* transistions */
+
+.box {
+    width: 100px;
+    height: 100px;
+    background: gold; 
+    transition: transform 0.5s ease-in 10ms, background 0.4s; /* property to animate, duration, type, delay, other property to animate */
+}
+
+.box1:hover{
+    transform: rotate(15deg) scale(1.4); /* rotate then scale */
+    background: dodgerblue;
+}
+
+.box2:hover{
+    transform: scale(1.5); /* bigger */
+}
+
+.box3:hover{
+    transform: skew(15deg); /* turn */
+}
+
+.box4:hover{
+    transform: translate(10px, 10px);  /* move position */
+}
