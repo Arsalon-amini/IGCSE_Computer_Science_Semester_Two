@@ -12,3 +12,13 @@ CREATE TABLE IGCSE_CS_students (
 INSERT INTO IGCSE_CS_students VALUES (1, 'Mars', 10, 098893939393, "M");
 INSERT INTO IGCSE_CS_students VALUES (2, 'Charlie', 11, 0916793939393, "M");
 INSERT INTO IGCSE_CS_students VALUES (3, 'Annie', 11, 096793999993, "F");
+INSERT INTO IGCSE_CS_students VALUES (4, 'Amy', 11, 096793999993, "F");
+INSERT INTO IGCSE_CS_students VALUES (5, 'Leon', 11, 096793999993, "F");
+INSERT INTO IGCSE_CS_students VALUES (6, 'Henry', 11, 096793999993, "F");
+INSERT INTO IGCSE_CS_students VALUES (7, 'Angelina', 11, 096793999993, "F");
+INSERT INTO IGCSE_CS_students VALUES (8, 'Rain', 11, 096793999993, "F");
+
+-- get data from table
+SELECT name, gender 
+FROM IGCSE_CS_students 
+WHERE grade = 11;
