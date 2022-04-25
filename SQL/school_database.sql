@@ -24,3 +24,23 @@ INSERT INTO students VALUES (5, 'Leon', 'leon@gmail.com', 11, "Female");
 INSERT INTO students VALUES (6, 'Henry', 'henry@gmail.com', 11,  "Male");
 INSERT INTO students VALUES (7, 'Angelina', 'Angelina@gmail.com', 11,  "Female");
 INSERT INTO students VALUES (8, 'Rain', 'Rain@gmail.com', 11, "Male");
+
+
+
+-- INSERT clause
+INSERT INTO students
+VALUES (9, 'Mr. Amini', 'aa@gmail.com', 15, "Male")
+
+-- DELETE clause
+DELETE FROM students
+WHERE name = "Mr. Amini"
+
+-- UPDATE clause
+
+
+-- SELECT clause
+SELECT *
+FROM students
+
+
+
